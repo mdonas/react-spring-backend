@@ -7,6 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ReactSpringBackendApplication {
 
 	public static void main(String[] args) {
+		for (int i = 1; i < 5; i++) {
+			System.out.println("Lola + " +i);
+		}
 		SpringApplication.run(ReactSpringBackendApplication.class, args);
 	}
 
